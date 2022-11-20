@@ -7,11 +7,12 @@
     background-color: black;
     color: white;
     font-weight: bold;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 20;
+
 
 }
 
@@ -88,7 +89,9 @@ li a:hover {
 .info {
     font-size: 20px;
 }
-
+.section{
+    scroll-margin-top: 100px;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -164,12 +167,14 @@ body {
     background-image: url("bg2.jpg");
     z-index: -1;
     background-size: cover;
+
     /* or contain depending on what you want */
     background-position: center center;
     background-repeat: repeat-y;
 
 
-}
+} 
+
 #contact{
     margin-top: 150px;
     margin-left: 0;
